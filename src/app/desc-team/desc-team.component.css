@@ -1,0 +1,129 @@
+p{
+    font-size: 2.5vmin;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.view {
+    background: #0F2027; 
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+
+  }
+  .title {
+   
+      margin-bottom: 1px;
+      text-transform: uppercase;
+  }
+  
+  .card-block {
+      position: relative;
+      margin: 0;
+      padding: 0.4vw;
+      border: none;
+      border-top: 1px solid rgba(34, 36, 38, .1);
+      box-shadow: none;
+       
+  }
+  .card {
+      overflow: hidden;
+      padding: 5;
+      border: none;
+      background: #ffffffd1;
+      border-radius: .28571429rem;
+      box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+      margin-top:20px;
+  }
+  h2{
+      font-family: cursive;
+      font-size: 2.4vw;
+      font-weight: bold;
+  }
+  h4{
+    /*font-size: 1.8vw;*/
+      text-align: center;
+      font-family: cursive;
+  }
+  a{
+    font-size: 1vw;
+  }
+
+  @media screen and (min-width: 301px) {
+    div.rp {
+      font-size: 130%;
+    }
+  }
+  
+  @media screen and (max-width: 300px) {
+    div.rp {
+      font-size: 1%;
+    }
+  }
+  .imgRedonda {
+    width:150px;
+    height:150px;
+    border-radius:160px;
+    border:4px solid #666;
+    background: cornsilk;
+}
+.circular--portrait {
+  max-width: 100%;
+  width:100%;
+  height:auto;
+  display:block;
+  background-color: cornsilk;
+  border-radius:50%;
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.play{
+    color: beige;
+    font-family: cursive;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 7%;
+    margin-right: 1%;
+}
+
+.panel{
+    background: midnightblue;
+}
+
+#dp{
+    font-size: 100%;
+    font-weight: 900%;
+    font-family: cursive;
+    color: oldlace;
+}
+
+.score{
+    text-align: center;
+    background: #080a0bbd;
+    /*font-size: 150%;*/
+    font-size: 1.7vw;
+    font-weight: 1000%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffffdb;
+}
+
+.letTab{
+  font-size: 1.5w;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ancho{
+  width: 1vw;
+}
+thead{
+  background-color: #5c19667d;
+}
+.resaltado{
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

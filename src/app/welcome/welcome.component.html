@@ -1,0 +1,36 @@
+<div class="view mask gradient-card align-items-center">
+    <div><br></div>
+    <div *ngIf= favSafe class="card">
+        <h5 class="card-header">Favorite Teams</h5>    
+        <div class="row">
+            <div *ngFor='let favs of favSafe' class="col-sm-3 ep">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <p style="text-align: center;"> {{ favs.strTeam }} </p>
+                        <img [src]="favs.strTeamBadge" ><br>
+                        <a class="btn btn-info btn-block" id="pButton" [routerLink]="['/TeamDet', favs.idTeam]">Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div><br></div>
+    <div class="card">
+        <h5 class="card-header">All Premier League Teams</h5> 
+        <div class="row">
+            <div *ngFor='let team of lstTeams' class="col-sm-3 ep">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <p style="text-align: center;"> {{ team.strTeam }} </p>
+                        <img [src]="team.strTeamBadge" ><br>    
+                        <a class="btn btn-info btn-block" [routerLink]="['/TeamDet', team.idTeam]">Info</a><br>
+                        <button class="btn btn-warning btn-block" (click)="saveFavs(team.idTeam)">Add Fav</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <div><br></div>
+</div>

@@ -1,0 +1,27 @@
+<section>
+    <ng-container *ngFor="let ev of evsTeam">
+  <div *ngFor="let tm of team" class="container py-1">
+    
+    <div class="card">
+      <div class="card-header" style="padding: 10px 2px 0.3px 2px;">
+          <h4 class="card-title text-center"> {{ ev.dateEvent }} </h4>
+      </div>
+      
+      <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8 px-3">
+            <div class="card-block px-3 row" style="padding: 10px 2px 0.3px 2px;">
+              <p class="card-text text-center col-sm-4">{{ ev.strHomeTeam }} </p>
+              <p class="card-text text-center col-sm-4">
+                <span *ngIf="ev.intHomeScore != null" > {{ ev.intHomeScore }} : {{ ev.intAwayScore }}</span> 
+                <span *ngIf="ev.intHomeScore == null" > {{ ev.strTime }} </span>
+              </p>
+              <p class="card-text text-center col-sm-4">{{ ev.strAwayTeam }}</p>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</section>

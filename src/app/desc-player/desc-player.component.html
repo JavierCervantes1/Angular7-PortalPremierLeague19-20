@@ -1,0 +1,35 @@
+<section>
+  <div *ngFor="let info of playerInfo" class="container">
+  	<div class="row">    	
+  	    
+    	<div class="col-md-3">
+  		</div>
+
+      <div class="col-md-6">
+    <div class="card profile-card-2">
+            <div class="card-img-block">
+              <img width="200" class="img-fluid prof" [src]="info.strCutout" alt="profile-image"/>                
+            </div>
+            <div class="card-body pt-5">
+              <h1>{{ info.strNumber }}</h1>
+                <h5 class="card-title">{{ info.strPlayer }}: {{ info.strPosition }}</h5>
+                <div class="dates">
+                    <div class="start">
+                        <strong>Nationality</strong> {{ info.strNationality }}
+                        <span></span>
+                    </div>
+                    <div class="ends">
+                        <strong>Date-Born</strong> {{ info.dateBorn }}
+                    </div>
+                </div>
+                <h5 class="card-text"></h5>
+           </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+      </div>
+
+    </div>
+  </div>
+</section>

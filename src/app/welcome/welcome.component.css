@@ -1,0 +1,67 @@
+html,
+body,
+.view {
+  height: 90%; }
+
+#mobile-box {
+  width: 100px; }
+
+.gradient-card {
+  background: #FF4B2B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FF416C, #FF4B2B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FF416C, #FF4B2B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+
+.card {
+  -webkit-border-radius: 10px;
+  border-radius: 10px; 
+  margin: 0% 3% 0% 3%;}
+
+.card .view {
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px; }
+
+.card h5 a {
+  color: #0d47a1;
+}
+.card h5 a:hover {
+  color: #072f6b;
+}
+
+#pButton {
+  float: left; }
+
+#pButton {
+  margin-top: 12px;
+  cursor: pointer; }
+
+
+
+
+img{
+    width: 75%;
+    display:block;
+    margin:auto;
+  }
+
+  .ep{
+    margin-bottom: 3%;
+    margin-left: 0%;
+  }
+
+  p{
+      font-weight: 700;
+      font-size: 130%;
+      /*font-size: 2vw 3vmin;*/
+      display:block;
+  }
+
+  h5{
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center; 
+    margin-bottom: 1%;
+  }

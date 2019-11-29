@@ -1,0 +1,24 @@
+.card{
+    background-color: #37003c29;
+    font-family: cursive;
+}
+
+p{
+    font-size: 140%;
+    font-weight: bold;
+}
+
+span{
+    background-color: #37003c;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h3{
+    position: absolute;
+    top: 6px;
+    left: 90%;
+    -webkit-transform: translate(20%, 0%);
+    transform: translate(40%, 0%);
+}
